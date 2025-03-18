@@ -1,0 +1,22 @@
+# Laravel специфични файлове
+/vendor
+/node_modules
+/.env
+/.env.local
+/public/storage
+/storage/*.key
+/storage/oauth-private.key
+/storage/oauth-public.key
+/storage/framework
+/storage/logs
+/bootstrap/cache
+
+# IDE специфични файлове
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Docker специфични файлове
+docker-compose.override.yml
+mariadb_data/
